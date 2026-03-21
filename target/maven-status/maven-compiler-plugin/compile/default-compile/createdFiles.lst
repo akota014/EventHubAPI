@@ -1,0 +1,3 @@
+com\apitest\payload\RegisterResponse.class
+com\apitest\bdd\App.class
+com\apitest\payload\RegisterRequest.class

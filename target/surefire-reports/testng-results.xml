@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-21T21:10:21 IST" name="Surefire suite" finished-at="2026-03-21T21:10:36 IST" duration-ms="15189">
+    <groups>
+    </groups>
+    <test started-at="2026-03-21T21:10:21 IST" name="Surefire test" finished-at="2026-03-21T21:10:36 IST" duration-ms="15189">
+      <class name="com.apitest.test.AppTest">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:21 IST" name="spec" finished-at="2026-03-21T21:10:22 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="ValidRegistration()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:22 IST" name="ValidRegistration" finished-at="2026-03-21T21:10:27 IST" duration-ms="4634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidRegistration -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:27 IST" name="spec" finished-at="2026-03-21T21:10:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="duplicateTest()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:27 IST" name="duplicateTest" finished-at="2026-03-21T21:10:29 IST" duration-ms="2175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateTest -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:29 IST" name="spec" finished-at="2026-03-21T21:10:29 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="extraField()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:29 IST" name="extraField" finished-at="2026-03-21T21:10:30 IST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extraField -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:30 IST" name="spec" finished-at="2026-03-21T21:10:30 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="invalidEmail()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:30 IST" name="invalidEmail" finished-at="2026-03-21T21:10:32 IST" duration-ms="2217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:32 IST" name="spec" finished-at="2026-03-21T21:10:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="largePayload()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:32 IST" name="largePayload" finished-at="2026-03-21T21:10:35 IST" duration-ms="2428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- largePayload -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:35 IST" name="spec" finished-at="2026-03-21T21:10:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="missingFields()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:35 IST" name="missingFields" finished-at="2026-03-21T21:10:35 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingFields -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:35 IST" name="spec" finished-at="2026-03-21T21:10:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="passwordTooShort()[pri:0, instance:com.apitest.test.AppTest@525f1e4e]" started-at="2026-03-21T21:10:35 IST" name="passwordTooShort" finished-at="2026-03-21T21:10:36 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordTooShort -->
+      </class> <!-- com.apitest.test.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
