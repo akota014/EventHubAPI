@@ -19,10 +19,10 @@ pipeline {
             }
         }
         
-        post{
-		always{
-			bat 'docker compose down'
-		}
+       stage('Archive Reports') {
+            steps {
+                junit 'target/surefire-reports/*.xml'
+            }
+        }
 	}
-    }
-}
+  }
