@@ -19,10 +19,5 @@ pipeline {
             }
         }
         
-       stage('Archive Reports') {
-            steps {
-                junit 'target/surefire-reports/*.xml'
-            }
-        }
 	}
   }
