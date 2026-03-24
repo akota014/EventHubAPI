@@ -1,2 +1,4 @@
-com\apitest\test\AppTest.class
 com\apitest\BaseTest\BaseTest.class
+com\apitest\BaseTest\Listener.class
+com\apitest\test\LoginTest.class
+com\apitest\test\RegisterTest.class

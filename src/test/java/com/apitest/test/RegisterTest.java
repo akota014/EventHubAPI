@@ -9,7 +9,7 @@ import com.apitest.payload.RegisterResponse;
 import static io.restassured.RestAssured.*;
 
 
-class AppTest extends BaseTest {
+class RegisterTest extends BaseTest {
 
 	@Test
 	public void ValidRegistration() {

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.apitest.bdd.AppTest">
+      <class name="com.apitest.test.LoginTest">
         <methods>
-          <include name="getUrl"/>
-          <include name="duplicateTest"/>
+          <include name="loginSuccess"/>
+          <include name="spec"/>
+          <include name="getCurrUser"/>
         </methods>
-      </class> <!-- com.apitest.bdd.AppTest -->
+      </class> <!-- com.apitest.test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

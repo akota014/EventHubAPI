@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="15.94" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="8.51" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\sinu\AppData\Local\Temp\surefire6247929068392775707\surefirebooter-20260321211020342_3.jar C:\Users\sinu\AppData\Local\Temp\surefire6247929068392775707 2026-03-21T21-10-20_137-jvmRun1 surefire-20260321211020342_1tmp surefire_0-20260321211020342_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sinu\AppData\Local\Temp\surefire8795414511324248910\surefirebooter-20260324095717826_3.jar C:\Users\sinu\AppData\Local\Temp\surefire8795414511324248910 2026-03-24T09-57-17_578-jvmRun1 surefire-20260324095717826_1tmp surefire_0-20260324095717826_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\bdd\target\test-classes;E:\bdd\target\classes;C:\Users\sinu\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\sinu\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\sinu\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\sinu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sinu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sinu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sinu\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sinu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sinu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sinu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sinu\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\sinu\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\sinu\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\sinu\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\sinu\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\sinu\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\sinu\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\sinu\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\sinu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sinu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\jackson-databind-2.21.1.jar;C:\Users\sinu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\sinu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sinu\AppData\Local\Temp\surefire6247929068392775707\surefirebooter-20260321211020342_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sinu\AppData\Local\Temp\surefire8795414511324248910\surefirebooter-20260324095717826_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -59,16 +59,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="ValidRegistration" classname="com.apitest.test.AppTest" time="4.633">
+  <testcase name="loginSuccess" classname="com.apitest.test.LoginTest" time="2.512">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="duplicateTest" classname="com.apitest.test.AppTest" time="2.172"/>
-  <testcase name="extraField" classname="com.apitest.test.AppTest" time="0.947"/>
-  <testcase name="invalidEmail" classname="com.apitest.test.AppTest" time="2.217"/>
-  <testcase name="largePayload" classname="com.apitest.test.AppTest" time="2.428"/>
-  <testcase name="missingFields" classname="com.apitest.test.AppTest" time="0.556"/>
-  <testcase name="passwordTooShort" classname="com.apitest.test.AppTest" time="0.913"/>
+  <testcase name="invalidUser" classname="com.apitest.test.LoginTest" time="0.893">
+    <system-out><![CDATA[1774326442355]]></system-out>
+  </testcase>
+  <testcase name="missingField" classname="com.apitest.test.LoginTest" time="0.335">
+    <system-out><![CDATA[1774326443260]]></system-out>
+  </testcase>
+  <testcase name="wrongPassword" classname="com.apitest.test.LoginTest" time="0.352"/>
+  <testcase name="getCurrUser" classname="com.apitest.test.LoginTest" time="0.251"/>
+  <testcase name="ValidRegistration" classname="com.apitest.test.RegisterTest" time="0.628"/>
+  <testcase name="duplicateTest" classname="com.apitest.test.RegisterTest" time="0.3"/>
+  <testcase name="extraField" classname="com.apitest.test.RegisterTest" time="0.383"/>
+  <testcase name="invalidEmail" classname="com.apitest.test.RegisterTest" time="0.326"/>
+  <testcase name="largePayload" classname="com.apitest.test.RegisterTest" time="0.37"/>
+  <testcase name="missingFields" classname="com.apitest.test.RegisterTest" time="0.278"/>
+  <testcase name="passwordTooShort" classname="com.apitest.test.RegisterTest" time="0.26"/>
 </testsuite>

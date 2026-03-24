@@ -1,3 +1,8 @@
 com\apitest\payload\RegisterResponse.class
-com\apitest\bdd\App.class
+com\apitest\payload\GetCurrResponse$User.class
+com\apitest\payload\GetCurrResponse.class
+com\apitest\payload\LoginResponse.class
 com\apitest\payload\RegisterRequest.class
+com\apitest\bdd\App.class
+com\apitest\payload\LoginRequest.class
+com\apitest\payload\LoginResponse$User.class
