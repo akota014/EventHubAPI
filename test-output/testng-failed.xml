@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.apitest.test.LoginTest">
+      <class name="com.apitest.test.EventTest">
         <methods>
-          <include name="loginSuccess"/>
+          <include name="createEvents"/>
+          <include name="updateEvent"/>
           <include name="spec"/>
-          <include name="getCurrUser"/>
+          <include name="deleteEventinvalidId"/>
+          <include name="deleteEventBydId"/>
+          <include name="updateEventInvalidId"/>
         </methods>
-      </class> <!-- com.apitest.test.LoginTest -->
+      </class> <!-- com.apitest.test.EventTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

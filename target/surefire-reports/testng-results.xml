@@ -2,106 +2,106 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T09:57:18 IST" name="Surefire suite" finished-at="2026-03-24T09:57:26 IST" duration-ms="7851">
+  <suite started-at="2026-03-24T10:44:35 IST" name="Surefire suite" finished-at="2026-03-24T10:44:43 IST" duration-ms="8086">
     <groups>
     </groups>
-    <test started-at="2026-03-24T09:57:18 IST" name="Surefire test" finished-at="2026-03-24T09:57:26 IST" duration-ms="7851">
+    <test started-at="2026-03-24T10:44:35 IST" name="Surefire test" finished-at="2026-03-24T10:44:43 IST" duration-ms="8086">
       <class name="com.apitest.test.LoginTest">
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:18 IST" name="spec" finished-at="2026-03-24T09:57:19 IST" duration-ms="859" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:35 IST" name="spec" finished-at="2026-03-24T10:44:35 IST" duration-ms="702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="loginSuccess()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:19 IST" name="loginSuccess" finished-at="2026-03-24T09:57:22 IST" duration-ms="2512" status="PASS">
+        <test-method signature="loginSuccess()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:35 IST" name="loginSuccess" finished-at="2026-03-24T10:44:38 IST" duration-ms="2551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccess -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:22 IST" name="spec" finished-at="2026-03-24T09:57:22 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:38 IST" name="spec" finished-at="2026-03-24T10:44:38 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="invalidUser()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:22 IST" name="invalidUser" finished-at="2026-03-24T09:57:23 IST" duration-ms="898" status="PASS">
+        <test-method signature="invalidUser()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:38 IST" name="invalidUser" finished-at="2026-03-24T10:44:39 IST" duration-ms="828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUser -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:23 IST" name="spec" finished-at="2026-03-24T09:57:23 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:39 IST" name="spec" finished-at="2026-03-24T10:44:39 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="missingField()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:23 IST" name="missingField" finished-at="2026-03-24T09:57:23 IST" duration-ms="334" status="PASS">
+        <test-method signature="missingField()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:39 IST" name="missingField" finished-at="2026-03-24T10:44:39 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- missingField -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:23 IST" name="spec" finished-at="2026-03-24T09:57:23 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:39 IST" name="spec" finished-at="2026-03-24T10:44:39 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="wrongPassword()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:23 IST" name="wrongPassword" finished-at="2026-03-24T09:57:23 IST" duration-ms="352" status="PASS">
+        <test-method signature="wrongPassword()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:39 IST" name="wrongPassword" finished-at="2026-03-24T10:44:40 IST" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongPassword -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:23 IST" name="spec" finished-at="2026-03-24T09:57:23 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:40 IST" name="spec" finished-at="2026-03-24T10:44:40 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="getCurrUser()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T09:57:23 IST" name="getCurrUser" finished-at="2026-03-24T09:57:24 IST" depends-on-methods="com.apitest.test.LoginTest.loginSuccess" duration-ms="251" status="PASS">
+        <test-method signature="getCurrUser()[pri:0, instance:com.apitest.test.LoginTest@29f69090]" started-at="2026-03-24T10:44:40 IST" name="getCurrUser" finished-at="2026-03-24T10:44:40 IST" depends-on-methods="com.apitest.test.LoginTest.loginSuccess" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrUser -->
       </class> <!-- com.apitest.test.LoginTest -->
       <class name="com.apitest.test.RegisterTest">
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:24 IST" name="spec" finished-at="2026-03-24T09:57:24 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:40 IST" name="spec" finished-at="2026-03-24T10:44:40 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="ValidRegistration()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:24 IST" name="ValidRegistration" finished-at="2026-03-24T09:57:24 IST" duration-ms="628" status="PASS">
+        <test-method signature="ValidRegistration()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:40 IST" name="ValidRegistration" finished-at="2026-03-24T10:44:40 IST" duration-ms="438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidRegistration -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:24 IST" name="spec" finished-at="2026-03-24T09:57:24 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:40 IST" name="spec" finished-at="2026-03-24T10:44:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="duplicateTest()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:24 IST" name="duplicateTest" finished-at="2026-03-24T09:57:25 IST" duration-ms="300" status="PASS">
+        <test-method signature="duplicateTest()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:40 IST" name="duplicateTest" finished-at="2026-03-24T10:44:41 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- duplicateTest -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:25 IST" name="spec" finished-at="2026-03-24T09:57:25 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:41 IST" name="spec" finished-at="2026-03-24T10:44:41 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="extraField()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:25 IST" name="extraField" finished-at="2026-03-24T09:57:25 IST" duration-ms="382" status="PASS">
+        <test-method signature="extraField()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:41 IST" name="extraField" finished-at="2026-03-24T10:44:41 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extraField -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:25 IST" name="spec" finished-at="2026-03-24T09:57:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:41 IST" name="spec" finished-at="2026-03-24T10:44:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="invalidEmail()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:25 IST" name="invalidEmail" finished-at="2026-03-24T09:57:25 IST" duration-ms="326" status="PASS">
+        <test-method signature="invalidEmail()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:41 IST" name="invalidEmail" finished-at="2026-03-24T10:44:42 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidEmail -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:25 IST" name="spec" finished-at="2026-03-24T09:57:25 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:42 IST" name="spec" finished-at="2026-03-24T10:44:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="largePayload()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:25 IST" name="largePayload" finished-at="2026-03-24T09:57:26 IST" duration-ms="369" status="PASS">
+        <test-method signature="largePayload()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:42 IST" name="largePayload" finished-at="2026-03-24T10:44:42 IST" duration-ms="431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- largePayload -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:26 IST" name="spec" finished-at="2026-03-24T09:57:26 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:42 IST" name="spec" finished-at="2026-03-24T10:44:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="missingFields()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:26 IST" name="missingFields" finished-at="2026-03-24T09:57:26 IST" duration-ms="277" status="PASS">
+        <test-method signature="missingFields()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:42 IST" name="missingFields" finished-at="2026-03-24T10:44:42 IST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- missingFields -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:26 IST" name="spec" finished-at="2026-03-24T09:57:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:42 IST" name="spec" finished-at="2026-03-24T10:44:42 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="passwordTooShort()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T09:57:26 IST" name="passwordTooShort" finished-at="2026-03-24T09:57:26 IST" duration-ms="261" status="PASS">
+        <test-method signature="passwordTooShort()[pri:0, instance:com.apitest.test.RegisterTest@568bf312]" started-at="2026-03-24T10:44:42 IST" name="passwordTooShort" finished-at="2026-03-24T10:44:43 IST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passwordTooShort -->

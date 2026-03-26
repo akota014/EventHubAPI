@@ -1,53 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-24T09:55:06 IST" name="Default suite" finished-at="2026-03-24T09:55:11 IST" duration-ms="5238">
+  <suite started-at="2026-03-26T21:03:15 IST" name="Default suite" finished-at="2026-03-26T21:03:32 IST" duration-ms="16605">
     <groups>
     </groups>
-    <test started-at="2026-03-24T09:55:06 IST" name="Default test" finished-at="2026-03-24T09:55:11 IST" duration-ms="5238">
-      <class name="com.apitest.test.LoginTest">
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:06 IST" name="spec" finished-at="2026-03-24T09:55:06 IST" duration-ms="721" status="PASS">
+    <test started-at="2026-03-26T21:03:15 IST" name="Default test" finished-at="2026-03-26T21:03:32 IST" duration-ms="16605">
+      <class name="com.apitest.test.EventTest">
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:15 IST" name="spec" finished-at="2026-03-26T21:03:16 IST" duration-ms="1100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="loginSuccess()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:06 IST" name="loginSuccess" finished-at="2026-03-24T09:55:09 IST" duration-ms="2554" status="PASS">
+        <test-method signature="createEventEmpToken()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:16 IST" name="createEventEmpToken" finished-at="2026-03-26T21:03:19 IST" duration-ms="3138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginSuccess -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:09 IST" name="spec" finished-at="2026-03-24T09:55:09 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- spec -->
-        <test-method signature="invalidUser()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:09 IST" name="invalidUser" finished-at="2026-03-24T09:55:10 IST" duration-ms="888" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidUser -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:10 IST" name="spec" finished-at="2026-03-24T09:55:10 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- createEventEmpToken -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:19 IST" name="spec" finished-at="2026-03-26T21:03:19 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="missingField()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:10 IST" name="missingField" finished-at="2026-03-24T09:55:10 IST" duration-ms="373" status="PASS">
+        <test-method signature="createEventInalidToken()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:19 IST" name="createEventInalidToken" finished-at="2026-03-26T21:03:22 IST" duration-ms="2327" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- missingField -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:10 IST" name="spec" finished-at="2026-03-24T09:55:10 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- spec -->
-        <test-method signature="wrongPassword()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:10 IST" name="wrongPassword" finished-at="2026-03-24T09:55:11 IST" duration-ms="357" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wrongPassword -->
-        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:11 IST" name="spec" finished-at="2026-03-24T09:55:11 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- createEventInalidToken -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:22 IST" name="spec" finished-at="2026-03-26T21:03:22 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- spec -->
-        <test-method signature="getCurrUser()[pri:0, instance:com.apitest.test.LoginTest@1622f1b]" started-at="2026-03-24T09:55:11 IST" name="getCurrUser" finished-at="2026-03-24T09:55:11 IST" depends-on-methods="com.apitest.test.LoginTest.loginSuccess" duration-ms="270" status="PASS">
+        <test-method signature="createEventNoBody()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:22 IST" name="createEventNoBody" finished-at="2026-03-26T21:03:22 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCurrUser -->
-      </class> <!-- com.apitest.test.LoginTest -->
+        </test-method> <!-- createEventNoBody -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:22 IST" name="spec" finished-at="2026-03-26T21:03:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="createEvents()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:22 IST" name="createEvents" finished-at="2026-03-26T21:03:23 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvents -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:23 IST" name="spec" finished-at="2026-03-26T21:03:23 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="deleteEventinvalidId()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:23 IST" name="deleteEventinvalidId" finished-at="2026-03-26T21:03:25 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEventinvalidId -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:25 IST" name="spec" finished-at="2026-03-26T21:03:25 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="eventsById()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:25 IST" name="eventsById" finished-at="2026-03-26T21:03:26 IST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventsById -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:26 IST" name="spec" finished-at="2026-03-26T21:03:26 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="eventsByIdNotFound()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:26 IST" name="eventsByIdNotFound" finished-at="2026-03-26T21:03:26 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventsByIdNotFound -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:26 IST" name="spec" finished-at="2026-03-26T21:03:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="expTokenEvents()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:26 IST" name="expTokenEvents" finished-at="2026-03-26T21:03:28 IST" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expTokenEvents -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:28 IST" name="spec" finished-at="2026-03-26T21:03:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="failEvents()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:28 IST" name="failEvents" finished-at="2026-03-26T21:03:28 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failEvents -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:28 IST" name="spec" finished-at="2026-03-26T21:03:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="listAllEvents()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:28 IST" name="listAllEvents" finished-at="2026-03-26T21:03:29 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listAllEvents -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:29 IST" name="spec" finished-at="2026-03-26T21:03:29 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="updateEvent()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:29 IST" name="updateEvent" finished-at="2026-03-26T21:03:30 IST" depends-on-methods="com.apitest.test.EventTest.createEvents" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEvent -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:30 IST" name="spec" finished-at="2026-03-26T21:03:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="updateEventEmpBody()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:30 IST" name="updateEventEmpBody" finished-at="2026-03-26T21:03:30 IST" depends-on-methods="com.apitest.test.EventTest.createEvents" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEventEmpBody -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:30 IST" name="spec" finished-at="2026-03-26T21:03:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="updateEventEmpToken()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:30 IST" name="updateEventEmpToken" finished-at="2026-03-26T21:03:31 IST" depends-on-methods="com.apitest.test.EventTest.createEvents" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEventEmpToken -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:31 IST" name="spec" finished-at="2026-03-26T21:03:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="updateEventInvalidId()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:31 IST" name="updateEventInvalidId" finished-at="2026-03-26T21:03:31 IST" depends-on-methods="com.apitest.test.EventTest.createEvents" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEventInvalidId -->
+        <test-method is-config="true" signature="spec()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:31 IST" name="spec" finished-at="2026-03-26T21:03:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spec -->
+        <test-method signature="deleteEventBydId()[pri:0, instance:com.apitest.test.EventTest@10e41621]" started-at="2026-03-26T21:03:31 IST" name="deleteEventBydId" finished-at="2026-03-26T21:03:32 IST" depends-on-methods="com.apitest.test.EventTest.updateEvent" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEventBydId -->
+      </class> <!-- com.apitest.test.EventTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

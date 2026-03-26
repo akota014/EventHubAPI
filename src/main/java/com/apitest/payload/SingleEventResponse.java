@@ -1,0 +1,27 @@
+package com.apitest.payload;
+
+import com.apitest.payload.EventResponse.Data;
+
+public class SingleEventResponse {
+	public Boolean success;
+	public String error;
+	public Data data;
+	
+	public static class Data{
+		public int id;
+        public String title;
+        public String description;
+        public String category;
+        public String venue;
+        public String city;
+        public String eventDate;
+        public String price;
+        public int totalSeats;
+        public int availableSeats;
+        public String imageUrl;
+        public Boolean isStatic;
+        public int userId;
+        public String createdAt;
+        public String updatedAt;
+	}
+}
